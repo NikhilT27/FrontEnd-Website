@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "name": "education"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "degree_name": {
+      "type": "string",
+      "required": true
+    },
+    "college": {
+      "type": "string",
+      "required": true
+    },
+    "marks": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

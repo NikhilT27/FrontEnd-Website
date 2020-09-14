@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awards",
+  "info": {
+    "name": "award"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
